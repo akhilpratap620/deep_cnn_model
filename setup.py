@@ -3,10 +3,10 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
-__version__ = "0.0.0"
+__version__ = "0.0.1"
 
 REPO_NAME = "deep_cnn_model"
-AUTHOR_USER_NAME = "Akhil pratap singh"
+AUTHOR_USER_NAME = "akhilpratap620"
 SRC_REPO = "deepClassifier"
 AUTHOR_EMAIL = "sakhilpratap620@gmail.com"
 
