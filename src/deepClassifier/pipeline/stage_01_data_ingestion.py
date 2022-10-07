@@ -7,17 +7,15 @@ STAGE_NAME = "Data Ingestion Stage"
 
 
 def main():
-    
 
     config = ConfigurationManager()
     data_ingestion_config = config.get_data_ingestion_config()
-    data_ingetion =DataIngestion(config=data_ingestion_config)
+    data_ingetion = DataIngestion(config=data_ingestion_config)
     data_ingetion.download_file()
     data_ingetion.unzip_and_clean()
 
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
 
     try:
         logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
@@ -25,4 +23,4 @@ if __name__ == '__main__':
         logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<")
     except Exception as e:
         logger.exception(e)
-        raise e    
+        raise e
