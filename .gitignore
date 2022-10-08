@@ -8,6 +8,10 @@ __pycache__/
 #jpg file
 *.jpg
 
+# json extension
+*.json
+
+
 
 # Distribution / packaging
 .Python
