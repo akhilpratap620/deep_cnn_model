@@ -140,3 +140,10 @@ dmypy.json
 #vs code
 .vs code
 artifacts/prepare_base_model/base_model_updated.h5
+artifacts/prepare_base_model/base_model.h5
+artifacts/prepare_callbacks/checkpoint_dir/model.h5
+artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2022-10-14-09-20-19/train/events.out.tfevents.1665719439.LAPTOP-H2FD20KV.22772.0.v2
+artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2022-10-14-13-47-09/train/events.out.tfevents.1665735434.LAPTOP-H2FD20KV.4796.0.v2
+artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2022-10-15-13-25-49/train/events.out.tfevents.1665820557.LAPTOP-H2FD20KV.9540.0.v2
+artifacts/training/model.h5
+artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2022-10-14-13-47-09/validation/events.out.tfevents.1665744466.LAPTOP-H2FD20KV.4796.1.v2
